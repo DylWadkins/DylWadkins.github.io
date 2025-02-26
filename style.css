@@ -1,0 +1,81 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body{
+  background-color: #BFD8AF;
+}
+
+.card-footer{
+  bottom: 0;
+  margin-top: 100vh; 
+  text-align: center; 
+}
+
+#hero-section{
+  display: flex;
+  border: 15px; 
+  height: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/boone.jpg");
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  max-width: 100%;
+  max-height: 99%;
+  background-size:cover;
+}
+
+#profile-image{
+  border-width: 5px;
+  height: 37vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text{
+  color: #BFD8AF;
+}
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+}
+
+#footer-section{
+  width: 100%;
+}
+
+.mission-img{
+  display: block;
+  border-radius: 10px;
+  border-width: 5px;
+  margin-bottom: 15px;
+}
+
+.skill-img{
+  margin-bottom: 15px;
+  height: 10vh;
+}
+
+h3{
+  color: black;
+}
+
+
+.contact-img{
+  height: 10vh;
+  margin-bottom: 15px;
+}
+
+.contact-img:hover{
+  background-color:#94778B;
+  border-radius:15px;
+}
+
+#skills-section,
+#inspiration-section,
+#mission-section{
+  position: relative;
+  top: -85px;
+}
